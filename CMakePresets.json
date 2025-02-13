@@ -1,0 +1,34 @@
+{
+  "version": 4,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 23,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Default Config",
+      "description": "Default build using Unix generator",
+      "generator": "Unix Makefiles",
+      "cacheVariables": {
+        "BUILD_WITH_HPP_FCL_SUPPORT": {
+          "type": "BOOL",
+          "value": "ON"
+        },
+        "BUILD_PYTHON_INTERFACE": {
+          "type": "BOOL",
+          "value": "OFF"
+        },
+        "BUILD_TESTING": {
+          "type": "BOOL",
+          "value": "OFF"
+        },
+        "CMAKE_PREFIX_PATH": {
+          "type": "STRING",
+          "value": "/Users/yangfeng/.vcpkg-clion/vcpkg/installed/arm64-osx/share"
+        }
+      }
+    }
+  ]
+}
