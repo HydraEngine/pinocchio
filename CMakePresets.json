@@ -12,7 +12,7 @@
       "description": "Default build using Unix generator",
       "generator": "Unix Makefiles",
       "environment": {
-        "CMAKE_PREFIX_PATH": "$penv{CMAKE_PREFIX_PATH}:$penv{HOME}/Desktop/ros_motion/install:$penv{HOME}/.vcpkg-clion/vcpkg/installed/arm64-osx/share"
+        "CMAKE_PREFIX_PATH": "$penv{CMAKE_PREFIX_PATH}:$penv{HOME}/Desktop/ros_motion/install"
       },
       "cacheVariables": {
         "BUILD_WITH_HPP_FCL_SUPPORT": {
